@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <caption><strong>Conference Schedule</strong></caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Room A</th>
+                <th>Room B</th>
+                <th>Room C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td title="Speaker: Dr. Smith | Session: Opening Keynote" style="background-color: yellow;">Opening Keynote</td>
+                <td title="Speaker: Prof. Johnson | Session: Data Science Workshop" style="background-color: #ADD8E6;">Data Science Workshop</td>
+                <td rowspan="2" title="Speakers: Various | Session: Industry Panel" style="background-color: #90EE90;">Industry Panel</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td title="Speaker: Dr. Lee | Session: Future of AI" style="background-color: yellow;">Future of AI</td>
+                <td title="Speaker: Prof. Martinez | Session: Machine Learning Workshop" style="background-color: #ADD8E6;">Machine Learning Workshop</td>
+            </tr>
+            <tr>
+                <td>11:00 - 11:30</td>
+                <td colspan="3" title="Break" style="background-color: #F0E68C;">Coffee Break</td>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td title="Speaker: Dr. Brown | Session: Innovation in Tech" style="background-color: yellow;">Innovation in Tech</td>
+                <td title="Speaker: Prof. Davis | Session: Big Data Workshop" style="background-color: #ADD8E6;">Big Data Workshop</td>
+                <td title="Speakers: Various | Session: Tech Trends Panel" style="background-color: #90EE90;">Tech Trends Panel</td>
+            </tr>
+            <tr>
+                <td>12:30 - 13:30</td>
+                <td colspan="3" title="Lunch" style="background-color: #F0E68C;">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>13:30 - 14:30</td>
+                <td title="Speaker: Prof. Wilson | Session: IoT Workshop" style="background-color: #ADD8E6;">IoT Workshop</td>
+                <td title="Speaker: Dr. Taylor | Session: Cybersecurity Keynote" style="background-color: yellow;">Cybersecurity Keynote</td>
+                <td title="Speakers: Various | Session: Future of Work Panel" style="background-color: #90EE90;">Future of Work Panel</td>
+            </tr>
+            <tr>
+                <td>14:30 - 15:30</td>
+                <td colspan="2" title="Speaker: Dr. Moore | Session: Combined Session on Cloud Computing" style="background-color: #FFB6C1;">Combined Session on Cloud Computing</td>
+                <td title="Speaker: Prof. Anderson | Session: Blockchain Workshop" style="background-color: #ADD8E6;">Blockchain Workshop</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Legend</h2>
+    <ul>
+        <li style="background-color: yellow; width: 60px; margin-bottom: 10px;">Keynote</li>
+        <li style="background-color: #ADD8E6; width: 70px; margin-bottom: 10px;">Workshop</li>
+        <li style="background-color: #90EE90; width: 40px; margin-bottom: 10px;">Panel</li>
+        <li style="background-color: #F0E68C; width: 50px; margin-bottom: 10px;">Break</li>
+        <li style="background-color: #FFB6C1; width: 130px; margin-bottom: 10px;">Combined Session</li>
+    </ul>
+</body>
+</html>

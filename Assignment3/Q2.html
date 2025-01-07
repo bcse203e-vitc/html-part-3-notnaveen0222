@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Table</title>
+</head>
+<body>
+    <h1>Multi-level organization chart</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <caption><strong>Employees Details</strong></caption>
+        <thead>
+            <tr>
+                <th>Department Name</th>
+                <th>Manager</th>
+                <th>Number Of Employees</th>
+                <th>Dpt Budget($)</th>
+                <th>Percentage of total budget(%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: #f2f2f2;">
+                <td>HR</td>
+                <td>Joe</td>
+                <td>3</td>
+                <td>25000.00</td>
+                <td>12.90</td>
+            </tr>
+            <tr style="background-color: #dff0d8;">
+                <td>Engineering</td>
+                <td rowspan="2">John</td>
+                <td>10</td>
+                <td>50000.00</td>
+                <td>32.26</td>
+            </tr>
+            <tr style="background-color: #f9f2f4;">
+                <td>Marketing</td>
+                <td>12</td>
+                <td>15000.00</td>
+                <td>9.68</td>
+            </tr>
+            <tr style="background-color: #f2f2f2;">
+                <td>Finance</td>
+                <td>Cuban</td>
+                <td>6</td>
+                <td>30000.00</td>
+                <td>19.35</td>
+            </tr>
+            <tr style="background-color: #dff0d8;">
+                <td>Technical</td>
+                <td>Butler</td>
+                <td>7</td>
+                <td>40000.00</td>
+                <td>25.81</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" style="text-align: right;"><strong>Total Budget:</strong></td>
+                <td><strong>155000$</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
